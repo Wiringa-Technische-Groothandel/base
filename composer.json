@@ -1,0 +1,24 @@
+{
+    "name": "wtg/base",
+    "description": "Base module for WTG/webshop",
+    "authors": [
+        {
+            "name": "Thomas Wiringa",
+            "email": "thomas.wiringa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "WTG\\Base\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.4.*",
+        "webpatser/laravel-uuid": "2.*",
+        "wtg/customer": "self.version"
+    }
+}
