@@ -33,7 +33,7 @@
             <div style="position: fixed;bottom: 20px;right: 20px;background-color: red;color:#333;padding:5px;border:3px solid #333;">{{ ucfirst(app()->environment()) }}</div>
         @endif
 
-        <script src="{{ mix('js/app.js') }}"></script>
+        <script src="{{ mix('assets/js/app.js') }}"></script>
 
         @yield('extraJS')
     </body>
